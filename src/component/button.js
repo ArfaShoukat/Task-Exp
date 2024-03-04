@@ -5,7 +5,15 @@ const Button = ({ onClick, disabled, children }) => {
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`submit-button bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-4 px-7 rounded mt-4`}
+      style={{
+        backgroundColor: disabled ? '#ccc' : '#d3d3d3',
+        color: '#fff',
+        padding: '10px 20px',
+        border: "1px solid black",
+        borderRadius: '5px',
+        cursor: 'pointer',
+        fontSize: '1rem',
+      }}
     >
       {children}
     </button>

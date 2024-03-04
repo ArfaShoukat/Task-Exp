@@ -32,7 +32,7 @@ const ScoreBar = ({ completed, predictWrong, predictCorrect }) => {
           style={{
             display: "flex",
             width: "100%",
-            height: "7vh", // This will be overwritten by the outer div's height
+            height: "7vh",
             border: "2px solid black",
             borderRadius: "8px",
             position: "relative",

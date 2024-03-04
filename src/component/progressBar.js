@@ -1,5 +1,5 @@
 
-import './progressBar.css'
+import './ProgressBar.css'
 const ProgressBar = ({ currentQuestion, totalQuestions }) => {
     const progress = (currentQuestion / totalQuestions) * 100;
   
